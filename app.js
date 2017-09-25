@@ -3,7 +3,6 @@ define([
    'underscore',
    'backbone',
    'views/game',
-   'text',
    'text!/templates/layout.html'
 ], function($, _, Backbone, gameView, layoutTemplate){
     var AppView = Backbone.View.extend({

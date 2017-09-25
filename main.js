@@ -23,7 +23,7 @@ require.config({
     }
 });
 
-require([
+define([
     'router'
 ], function(Router){
     Router.initialize();
