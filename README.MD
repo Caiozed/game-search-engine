@@ -3,3 +3,5 @@ Project of a game search engine build with the giant bomb API and Backbone frame
 the giant bomb API: https://www.giantbomb.com/api/
 
 Backbone framework: http://backbonejs.org/
+
+Live demo: https://game-search-engine.herokuapp.com/index.html
