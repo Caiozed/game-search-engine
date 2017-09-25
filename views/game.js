@@ -2,6 +2,7 @@ define([
     'jquery',
     'underscore',
     'backbone',
+    'text',
     'text!templates/game.html'
 ], function($, _, Backbone, gameTemplate){
     var GameView = Backbone.View.extend({
