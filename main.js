@@ -24,7 +24,10 @@ require.config({
 });
 
 require([
-    'router'
-], function(Router){
-    Router.initialize();
+    'router',
+    'jquery'
+], function(Router, $){
+    $(document).ready(function(){
+        Router.initialize();  
+    });
 })
