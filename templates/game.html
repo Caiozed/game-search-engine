@@ -1,0 +1,14 @@
+<div class='game'>
+    <h2 class="game-title"><%= name %></h2>
+    <a class="game-image" href="<%= site_detail_url %>" target="_blank"><img src="<%= image.medium_url %>"></img></a>
+    <h3>Platforms:</h3>
+    <% if(platforms){%>
+        <% _.each(platforms,function(platform){ %>
+            <span> <%= platform.name %> </span>
+        <% }); %>
+    <%}else{%>
+        <span>Unknown</span>
+    <%};%>
+    <h3>Release date:</h3>
+    <p><%= original_release_date ? original_release_date.substring(0, 10) : "Unknown"   %></p>
+</div>

@@ -1,0 +1,105 @@
+*{
+    box-sizing: border-box;
+}
+
+#title{
+  font-size: 52px;
+  background: -webkit-linear-gradient(#66ccff, #006699);
+  background: -moz-linear-gradient(#66ccff, #006699);
+  background: -o-linear-gradient(#66ccff, #006699);
+  background: linear-gradient(#66ccff, #006699);
+  -webkit-background-clip: text;    
+  -webkit-text-fill-color: transparent;    
+}        
+
+.container{
+    width: 80%;
+    margin: 10px auto;
+    text-align: center;
+}
+
+#game_name{
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, .5);
+}
+
+.btn{
+    margin: 10px auto;
+    padding: 5px 10px;
+    background: linear-gradient(to right, rgba(147,206,222,1) 0%, rgba(117,189,209,1) 32%, rgba(0,196,250,1) 67%, rgba(73,165,191,1) 100%);
+    border: none;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, .5);
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+}
+
+.btn:hover{
+     border: 2px solid cyan;
+}
+
+
+.games-widget{
+    margin: 10px auto;
+    width: 50%;
+    height: 600px;
+    overflow-y: scroll;
+    border-radius: 5px;
+    box-shadow: 0 0 7px rgba(0, 0, 0, .7);
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    border-radius: 10px;
+}
+ 
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: cyan;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}
+
+.game{
+    box-shadow: 0 0 7px rgba(0, 0, 0, .7);
+    width: 90%;
+    margin: 20px auto;
+    padding: 5px;
+    border-radius: 25%;
+}
+
+.game-title{
+    font-size: 30px;
+    background: -webkit-linear-gradient(#ffcccc, #ff0000);
+    background: -moz-linear-gradient(#ffcccc, #ff0000);
+    background: -o-linear-gradient(#ffcccc, #ff0000);
+    background: linear-gradient(#ffcccc, #ff0000);
+    -webkit-background-clip: text;    
+    -webkit-text-fill-color: transparent;  
+}
+
+.game-image, .game-image img {
+    display: block;
+    margin: 10px auto;
+    max-width: 300px;
+    max-height: 205px;
+    width: auto;
+    height: auto;
+    transition: all 1s
+}
+
+.game-image img {
+    max-width: 300px;
+    max-height: 205px;
+    width: auto;
+    height: auto;
+}
+
+.game-image img:hover{
+     box-shadow: 0 0 20px rgba(255, 143, 143, 1);
+}
